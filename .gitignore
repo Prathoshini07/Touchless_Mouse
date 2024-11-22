@@ -1,0 +1,10 @@
+# Ignore the virtual environment folder
+venv/
+
+# Other Python-related ignores (optional)
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.log
+*.sqlite3

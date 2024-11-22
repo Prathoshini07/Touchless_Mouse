@@ -31,8 +31,8 @@ def move_mouse(index_finger_tip):
         x=int(index_finger_tip.x * screen_width)
         y=int(index_finger_tip.y * screen_height)
         #To move the mouse to new x,y coordinate
-        pyautogui.moveTo(x,y)
-        #mouse.position=(x,y)
+        #pyautogui.moveTo(x,y)
+        mouse.position=(x,y)
         
         
 def is_left_click(list_of_landmarks,thumb_index_distance):
